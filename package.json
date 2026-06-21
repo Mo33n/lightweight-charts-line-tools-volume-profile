@@ -24,7 +24,6 @@
     "build": "rollup -c",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepack": "npm run build",
     "prepublishOnly": "npm test"
   },
   "keywords": [
