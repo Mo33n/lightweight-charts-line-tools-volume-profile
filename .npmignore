@@ -1,0 +1,12 @@
+# Source & dev-only (dist/ is whitelisted via package.json "files")
+src/
+tests/
+example/
+node_modules/
+rollup.config.js
+tsconfig.json
+vitest.config.ts
+*.test.ts
+.gitignore
+.npmignore
+PUBLISHING.md

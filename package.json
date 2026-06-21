@@ -1,0 +1,63 @@
+{
+  "name": "lightweight-charts-line-tools-volume-profile",
+  "version": "0.1.0",
+  "description": "Fixed-range price-level profile line tool plugin for lightweight-charts-line-tools-core — template-driven with pluggable extractors and aggregators",
+  "type": "module",
+  "main": "./dist/lightweight-charts-line-tools-volume-profile.umd.js",
+  "module": "./dist/lightweight-charts-line-tools-volume-profile.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/lightweight-charts-line-tools-volume-profile.js",
+      "require": "./dist/lightweight-charts-line-tools-volume-profile.umd.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepack": "npm run build",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "lightweight-charts",
+    "line-tools",
+    "volume-profile",
+    "fixed-range",
+    "delta-profile",
+    "drawing-tools",
+    "footprint",
+    "poc",
+    "value-area"
+  ],
+  "author": "Mono Repo",
+  "license": "MPL-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "lightweight-charts": "^5.2.0",
+    "lightweight-charts-line-tools-core": "^1.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "lightweight-charts": "^5.2.0",
+    "lightweight-charts-line-tools-core": "^1.1.0",
+    "rollup": "^4.60.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
