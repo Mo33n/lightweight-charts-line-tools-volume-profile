@@ -40,6 +40,14 @@
   ],
   "author": "Mono Repo",
   "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mo33n/lightweight-charts-line-tools-volume-profile.git"
+  },
+  "homepage": "https://github.com/Mo33n/lightweight-charts-line-tools-volume-profile#readme",
+  "bugs": {
+    "url": "https://github.com/Mo33n/lightweight-charts-line-tools-volume-profile/issues"
+  },
   "publishConfig": {
     "access": "public"
   },

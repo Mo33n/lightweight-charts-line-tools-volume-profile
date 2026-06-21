@@ -51,7 +51,7 @@ npm install lightweight-charts lightweight-charts-line-tools-core lightweight-ch
 **Develop from source** (clone this repository):
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Mo33n/lightweight-charts-line-tools-volume-profile.git
 cd lightweight-charts-line-tools-volume-profile
 npm install
 npm run build
