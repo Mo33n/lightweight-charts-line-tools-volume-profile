@@ -1,6 +1,6 @@
 # lightweight-charts-line-tools-volume-profile
 
-Fixed-range **price-level profile** plugin for [`lightweight-charts-line-tools-core`](https://www.npmjs.com/package/lightweight-charts-line-tools-core). TradingView-style two-point range selection with a horizontal histogram — **template/config driven**, with **pluggable extractors and aggregators** for volume, delta, open interest, or any custom bar field.
+Fixed-range **price-level profile** plugin for [`lightweight-charts-line-tools-core`](https://github.com/difurious/lightweight-charts-line-tools-core). TradingView-style two-point range selection with a horizontal histogram — **template/config driven**, with **pluggable extractors and aggregators** for volume, delta, open interest, or any custom bar field.
 
 **Tool type:** `FixedRangeProfile`  
 **Package entry:** `dist/lightweight-charts-line-tools-volume-profile.umd.js` (global: `LightweightChartsLineToolsVolumeProfile`) or ESM `dist/lightweight-charts-line-tools-volume-profile.js`
